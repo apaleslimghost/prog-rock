@@ -7,6 +7,7 @@ var lines = parseInt(process.argv[2]);
 
 var gauge = new Gauge();
 gauge.setTheme(require('@quarterto/fancy-gauge'));
+gauge.show();
 
 var t = setInterval(() => gauge.pulse(), 100);
 
