@@ -1,6 +1,6 @@
 #!/bin/bash
 
 for i in {1..100}; do
+	sleep 10
 	echo $i
-	sleep 0.1
 done | node index.js 100
