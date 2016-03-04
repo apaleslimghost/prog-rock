@@ -1,6 +1,6 @@
 {
   "name": "prog-rock",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Pipe progress bar",
   "bin": "index.js",
   "scripts": {
